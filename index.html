@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <title>Вход Континуум</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#"
+        ><img class="logo" src="./assets/img/logo.svg" alt="logo"
+      /></a>
+      <div class="menu">
+        <div data-toggle class="menu__background"></div>
+        <img
+          data-toggle
+          class="menu__toggle-btn"
+          id="menu-btn"
+          src="./assets/img/burger-menu.svg"
+          alt="burger menu"
+        />
+        <nav class="menu__box">
+          <ul class="menu__nav">
+            <li class="menu__item"><a data-toggle href="#">Курсы ЕГЭ</a></li>
+            <li class="menu__item"><a data-toggle href="#">Курсы ОГЭ</a></li>
+          </ul>
+          <button class="menu__logIn" data-toggle>Войти</button>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <h1 class="main__header">Вход в личный кабинет</h1>
+      <form class="main__form">
+        <input class="main__item" type="text" placeholder="Телефон" />
+        <input class="main__item" type="text" placeholder="Пароль" />
+        <input class="main__btn-form" type="button" value="Войти" />
+      </form>
+    </main>
+    <script src="./index.js" defer></script>
+  </body>
+</html>
