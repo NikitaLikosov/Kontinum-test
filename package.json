@@ -1,7 +1,7 @@
 {
   "name": "kontinum",
   "version": "1.0.0",
-  "description": "",
+  "description": "Для запуска gulp npm run start или npm run watch",
   "main": "index.html",
   "scripts": {
     "start": "gulp sass-compaile",
@@ -15,5 +15,13 @@
     "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^3.0.0",
     "gulp-watch": "^5.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikitaLikosov/Kontinum-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NikitaLikosov/Kontinum-test/issues"
+  },
+  "homepage": "https://github.com/NikitaLikosov/Kontinum-test#readme"
 }

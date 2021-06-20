@@ -152,6 +152,7 @@ img {
     display: flex;
     flex-direction: column;
     width: 50%;
+    max-width: 315px;
     align-items: center;
   }
   &__item {

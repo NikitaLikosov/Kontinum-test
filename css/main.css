@@ -125,6 +125,7 @@ img {
     display: flex;
     flex-direction: column;
     width: 50%;
+    max-width: 315px;
     align-items: center; }
   .main__item {
     box-sizing: border-box;
